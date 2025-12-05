@@ -6,7 +6,7 @@ apt update && apt upgrade -y
 git clone https://github.com/depanSYZ/ubotdepann
 ```
 ```
-cd ubotpremjojo
+cd ubotdepann
 ```
 ```
 apt install ffmpeg -y
@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S ubotpremjojo
+screen -S ubotdepann
 ```
 ```
 python3 -m PyroUbot
@@ -36,13 +36,13 @@ python3 -m PyroUbot
 ---------- Menghidupan jika ubot mati -------------
 ```
 ```
-cd ubotpremjojo
+cd ubotdepann
 ```
 ```
 python3 -m venv venv && source venv/bin/activate
 ```
 ```
-screen -S ubotpremjojo
+screen -S ubotdepann
 ```
 ```
 python3 -m PyroUbot
